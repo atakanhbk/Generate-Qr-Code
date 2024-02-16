@@ -31,58 +31,61 @@ form {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #222222;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
   padding: 2rem;
   box-sizing: border-box;
 }
 
-.input-part{
-    display: flex;
-    flex-direction: column;
+.input-part {
+  display: flex;
+  flex-direction: column;
 }
 
-.input-part > h1{
-    color: white;
-    margin: 1rem 0px;
+.input-part > h1 {
+  color: white;
+  margin: 1rem 0px;
 }
 
-.input-part > h2{
-    margin: 0px;
-    margin-bottom: 1rem;
-    color: rgba(255, 255, 255, 0.507);
+.input-part > h2 {
+  margin: 0px;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.507);
 }
 
-.input-part > input{
-    margin: 1.5rem 0px;
-    width: 100%;
-    height: 3rem;
-    border-radius: 10px;
-    border: 2px solid gray;
-    background-color: #363636;
-    font-weight: bold;
-    padding: 1rem;
-    box-sizing: border-box;
-    color: white;
-    font-size: 1rem;
+.input-part > input {
+  margin: 1.5rem 0px;
+  width: 100%;
+  height: 3rem;
+  border-radius: 10px;
+  border: 2px solid gray;
+  background-color: #363636;
+  font-weight: bold;
+  padding: 1rem;
+  box-sizing: border-box;
+  color: white;
+  font-size: 1rem;
 }
 
-
-.input-part > button{
-   width: 100%;
-   height: 3rem;
-   background-color: #363636;
-   border-radius: 10px;
-   border: none;
-   color: white;
+.input-part > button {
+  width: 100%;
+  height: 3rem;
+  background-color: #363636;
+  border-radius: 10px;
+  border: none;
+  color: white;
 }
 
-.qr-code{
+.qr-code {
   width: 100%;
   height: 200px;
   border: 2px solid gray;
   margin-top: 1.2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: none;
 }
 
+.qr-code > img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

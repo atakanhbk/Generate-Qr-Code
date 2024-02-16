@@ -9,6 +9,7 @@ const generateFunction = (e) => {
   if (userValue != "") {
     const api = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${userValue}`;
     qrImage.src = `${api}`;
+    qrImage.parentNode.style.display = "block";
   } else {
     alert("Please You Should Write Something");
   }
