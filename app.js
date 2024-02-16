@@ -15,6 +15,7 @@ const generateFunction = (e) => {
     qrImage.addEventListener("load", () => {
         qrImage.parentNode.style.display = "block";
         spinnerBorder.style.display = "none";
+        userInput.value = "";
     });
   } else {
     alert("Please You Should Write Something");
